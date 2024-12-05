@@ -13,7 +13,7 @@ android {
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
-        buildConfigField ("String", "BASE_URL", "\"https://production-url.com/\"")
+        buildConfigField ("String", "BASE_URL", "\"https://storesinframobilitymessagesprod.azurewebsites.net\"")
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         setProperty("archivesBaseName", "ww-smart-button-$versionName")
     }
